@@ -70,12 +70,7 @@ predicted_triples.tsv의 각 라인은 다음의 형식을 갖습니다:
 
 3. 프로그램 사용법
 
-3-1. 선행 요구 사항
-이 프로그램은 기본적으로 파이썬을 이용해서 실행되기 때문에,
-python 2.7 버전이 설치되어 있어야 합니다. Ubuntu 최신 버전에서
-설치 및 실행하는 것을 권장합니다.
-
-3-2. 명령어 사용법
+3-1. 명령어 사용법
 C2K 프로그램을 사용하기 위한 명령은 다음과 같습니다:
 
   python C2K.py [-t] [-ko/en] [-def] [-thc floatValue] [-thq floatValue] [-thl floatValue] [-thu floatValue]
