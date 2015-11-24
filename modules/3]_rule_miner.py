@@ -530,6 +530,7 @@ def update_conf():
                 dsim_score = get_dsim_score(rp[0], rp[1])
                 
             total_conf[(c_id, r_id, o_id)] = base_conf[(c_id, r_id, o_id)] + math.pow(sim_score, 2) - math.sqrt(dsim_score)
+            total_conf[(c_id, r_id, o_id)] = (total_conf[(c_id, r_id, o_id)] + 1.0) / 3.0 # Normalizing
 
 def increase_ccnt(c_cnt):
     if c_cnt % 100000 == 0:
